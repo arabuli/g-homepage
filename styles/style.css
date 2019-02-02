@@ -5,5 +5,45 @@
 }
 
 body {
-    background-color: black;
+    background-color: #fff;
+}
+
+.main-img {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.main-search {
+    display: block;
+    width: 420px;
+    height: 34px;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+.search-btn {
+    margin: 11px 4px;
+    border-top: 1px;
+    width: 122.13px;
+    padding: 0 16px;
+    height: 36px;
+    background-color: #f2f2f2;
+    color: #757575;
+}
+
+.lucky-btn {
+    margin: 11px 4px;
+    border-top: 1px;
+    width: 123.55px;
+    padding: 0 16px;
+    height: 36px;
+    background-color: #f2f2f2;
+    color: #757575;
+    
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
 }
