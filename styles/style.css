@@ -14,22 +14,22 @@ body {
 
 .left-side {
     position: fixed;
+    list-style: none;
     left: 22px;
     top: 22px;
     opacity: 0.75;
-    word-spacing: 10px;
-    list-style: none;
+    word-spacing: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
 }
+
 .right-side {
     position: fixed;
     list-style: none;
     right: 22px;
-    top: 22px;
+    top: 15px;
     opacity: 0.75;
-    word-spacing: 10px;
-    list-style: none;
+    word-spacing: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
 }
@@ -66,6 +66,7 @@ li {
 
 .photo {
     border-radius: 50%;
+    margin-right: 20px;
 }
  
 
@@ -128,6 +129,11 @@ li {
     justify-content: center;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+
 /* --------------------------- */
 /* ------- POSITIONING ------ */
 /* --------------------------- */
@@ -137,7 +143,7 @@ li {
     width: 584px;
     height: 34px;
     position: relative;
-    margin: 0 auto;
+    margin: 0 auto 15px auto;
     padding-left: 12px;
     padding-top: 6px;
     border-radius: 2px;
@@ -149,60 +155,52 @@ li {
     font-size: 16px;
 }
 
-
-
-.list-one {
-    bottom: 10px;
-    position: fixed;
-    left: 0;
-}
-
-.list-two {
-    bottom: 10px;
-    position: fixed;
-    right: 0;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 .country {
-    position: absolute;
-    border-bottom: 1px solid;
-    bottom: 50px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #e4e4e4;
+    border-bottom: 0.5px solid;
 }
 
 footer {
-    background-color: rgba(242,242,242,1);
-    display: block;
-    line-height: 40px;
-    left: 0;
+    position: fixed;
+    line-height: 10px;
+    bottom: 50px;
+    background-color: #f2f2f2;
+    height: 50px;
+    width: 100%;
 }
-
-.listt {
-    background-color: black;
-}
-
 
 .bottom-left {
+    padding-left: 30px;
     position: fixed;
-    left: 22px;
-    bottom: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
     opacity: 0.75;
-    word-spacing: 10px;
+    word-spacing: 27px;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
+    background-color: rgb(242, 242, 242);
+    color: #5f6368;
 }
 
 .bottom-right {
     position: fixed;
-    right: 22px;
-    bottom: 22px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    right: 0;
     opacity: 0.75;
     word-spacing: 10px;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
+    background-color: rgb(242, 242, 242);
+    color: #717479;
 }
