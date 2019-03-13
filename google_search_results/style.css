@@ -1,0 +1,363 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #fff;
+    font-family: arial, sans-serif;
+}
+
+/* --------------------------- */
+/* ------- TOP NAVIGATION ------ */
+/* --------------------------- */
+
+.navbar {
+    background-color: #fff;
+    height: 64px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.left-side {
+    left: 22px;
+    list-style: none;
+    position: fixed;
+    top: 22px;
+}
+
+.top-search {
+    background-color: white;
+    background: #fff;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    color: initial;
+    display: block;
+    font-size: 16px;
+    height: 44px;
+    left: 150px;
+    position: absolute;
+    top: 20px;
+    width: 586px;
+}
+
+
+.search-mic {
+    left: 660px;
+    position: relative;
+    top: 30px;
+}
+
+.search-icon {
+    left: 670px;
+    position: relative;
+    top: 30px;
+}
+
+.right-side {
+    font-size: 13px;
+    list-style: none;
+    opacity: 0.75;
+    position: fixed;
+    right: 22px;
+    top: 15px;
+    word-spacing: 15px;
+}
+
+
+
+/* --------------------------- */
+/* ------- REUSABLE ------ */
+/* --------------------------- */
+
+
+li {
+    display: inline;
+}
+
+ul {
+    word-spacing: 24px;
+}
+
+/* --------------------------- */
+/* ------- IMAGES ------ */
+/* --------------------------- */
+
+
+.photo {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+/* --------------------------- */
+/* -- TOP LIST TO CHOOSE FROM -- */
+/* --------------------------- */
+
+.search-type-list-horizontal {
+    height: 40px;
+    left: 150px;
+    position: absolute;
+    top: 90px;
+    width: 500px;
+}
+
+.active-link {
+    border-bottom: 3px solid #1A73E8;
+    color: #1A73E8;
+    font-weight: bold;
+}
+
+
+.search-type-list-horizontal li {
+    color: #666;
+}
+
+
+.list-container ul li a {
+    color: #777;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    padding-bottom: 12px;
+    text-decoration: none;
+}
+
+.options-list {
+    left: 650px;
+    position: absolute;
+    top: 90px;
+}
+
+.search-stats {
+    left: 0;
+    position: relative;
+    top: 0;
+    margin-bottom: 20px;
+    color: #777;
+    padding-right: 8px;
+    font-size: small;
+}
+
+/* --------------------------- */
+/* --- BODY OF MAIN SEARCH --- */
+/* --------------------------- */
+
+
+.main-search-list {
+    color: #222;
+    font-family: arial, sans-serif;
+    height: 1407px;
+    left: 150px;
+    margin-top: 0;
+    position: relative;
+    top: 140px;
+    width: 632px;
+}
+
+.single-item {
+    margin-bottom: 27px;
+}
+
+.main-search-list a {
+    text-decoration: none;
+}
+
+
+.search-title {
+    color: #1a0dab;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.33;
+    position: relative;
+}
+
+.search-title a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.search-title a:hover {
+    text-decoration: underline;
+}
+
+.search-title a:visited {
+    color: #609;
+}
+
+.search-overview {
+    font-size: small;
+}
+
+.content-date {
+    display: block;
+    float: left;
+    font-family: arial, sans-serif;
+    font-size: small;
+    margin-right: 20px;
+}
+
+.search-link {
+    color: #006621;
+    font-style: normal;
+    font-size: 14px;
+    padding-top: 1px;
+    line-height: 1.54;
+    font-style: normal;
+    text-align: left;
+}
+
+
+.search-link a {
+    color: #006621;
+    font-style: normal;
+}
+
+.site-translate {
+    color: blue;
+    font-size: 14px;
+}
+
+.site-translate a:hover {
+    text-decoration: underline;
+}
+
+.search-date {
+    color: #808080;
+    float: left;
+    font-size: small;
+    margin-right: 10px;
+}
+
+
+/* --------------------------- */
+/* ----- RELATED SEARCHES ---- */
+/* --------------------------- */
+
+.related-search {
+    font-size: 18px;
+    line-height: 1.33;
+    color: #222;
+    font-weight: normal;
+}
+
+.related-list ul li {
+    display: block;
+    word-spacing: normal;
+}
+
+.related-list {
+    width: 592px;
+    height: 104px;
+    line-height: 1.54;
+    font-size: medium;
+    font-weight: normal;
+    display: block;
+    margin-top: 20px;
+}
+
+.related-list-two {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: -1px;
+    padding-bottom: 1px;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: top;
+    max-width: 100%;
+    box-sizing: border-box;
+
+}
+
+.related-list-one {
+    font-size: 14px;
+    margin-top: -1px;
+    padding-bottom: 1px;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: top;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-weight: bold;
+    height: 104px;
+    width: 300px;
+}
+
+.related-list-two li a {
+    padding: 3px 40px 3px 0;
+    line-height: 20px;
+}
+
+.related-list-two li {
+    padding: 3px 0 3px 0;
+}
+
+.related-list-one li a {
+    padding: 3px 40px 3px 0;
+    line-height: 20px;
+}
+
+.related-list-one li {
+    padding: 3px 0 3px 0;
+}
+
+/* --------------------------- */
+/* ------- CHANGE PAGE ------ */
+/* --------------------------- */
+
+.change-page {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.change-page ul {
+    word-spacing: 5px;
+}
+
+
+.change-page ul {
+    word-spacing: 5px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.change-page-list {
+    position: absolute;
+    left: 200px;
+}
+
+/* --------------------------- */
+/* ------- FOOTER ------ */
+/* --------------------------- */
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+    position: relative;
+    height: 83px;
+}
+
+
+.footer-top {
+    font-size: small;
+    border-bottom: 1px solid #e4e4e4;
+    background-color: rgba(0,0,0,.54);
+    height: 41px;
+}
+
+.footer-bottom {
+    font-size: small;
+    border-bottom: 1px solid #e4e4e4;
+    word-spacing: 10px;
+}
+
+.footer-bottom ul li {
+    word-spacing: 5px;
+    text-decoration: none;
+}
